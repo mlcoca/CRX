@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "必应每日壁纸",
+  "version": "1.0",
+  "description": "在新标签页显示必应每日壁纸",
+  "permissions": [
+    "storage",
+    "downloads",
+    "geolocation"
+  ],
+  "host_permissions": [
+    "https://www.bing.com/*",
+    "https://restapi.amap.com/*"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+} 

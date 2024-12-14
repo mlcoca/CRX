@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>新标签页</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="background"></div>
+    <div id="controls">
+      <button id="prevImage">上一张</button>
+      <button id="nextImage">下一张</button>
+      <div class="download-wrapper">
+        <button id="downloadImage">保存图片</button>
+        <div class="download-menu">
+          <div class="download-option" data-quality="1920x1080">高清 (1920x1080)</div>
+          <div class="download-option" data-quality="1366x768">标清 (1366x768)</div>
+          <div class="download-option" data-quality="1024x768">普清 (1024x768)</div>
+        </div>
+      </div>
+    </div>
+    <div id="weather">
+      <div id="weather-icon"></div>
+      <div id="temperature"></div>
+      <div id="description"></div>
+    </div>
+    <div id="info">
+      <h1 id="title"></h1>
+      <p id="copyright"></p>
+    </div>
+    <div id="carousel-trigger">
+      <div class="trigger-hint">
+        <span class="hint-icon">↑</span>
+        <span class="hint-text">查看更多壁纸</span>
+      </div>
+    </div>
+    <div id="carousel">
+      <div class="carousel-container">
+        <div class="carousel-track"></div>
+      </div>
+      <button id="prevCarousel" class="carousel-button">◀</button>
+      <button id="nextCarousel" class="carousel-button">▶</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> 
